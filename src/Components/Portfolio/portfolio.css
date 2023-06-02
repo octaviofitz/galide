@@ -1,0 +1,52 @@
+.clientes .container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+}
+
+.clientes .volanta{
+    font-size: 1.20rem;
+    margin: 1rem 8vw -0rem;
+    color: #000;
+}
+
+.clientes .titulo{
+    font-size: 1.85rem;
+    margin-left: 8vw;
+    color: #5c5188;
+    font-family: 'Anton', sans-serif;
+}
+
+.clientes .container .card{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    margin: 2rem 0;
+    box-shadow: red;
+    display: flex;
+    justify-content: center;
+    margin: 1rem auto;
+}
+
+.clientes .container .card .img{
+    width: 85vw;
+}
+
+@media (min-width: 768px){
+    .clientes .container .card .img{
+        width: 65vw;
+    }
+    
+}
+
+@media (min-width: 1024px){
+    .clientes .container{
+        flex-direction: row;
+    }
+
+    .clientes .container .card{
+        width: 30vw;
+        margin: 1rem auto;
+    }
+
+    
+}
