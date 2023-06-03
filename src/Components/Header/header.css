@@ -1,5 +1,3 @@
 .header .img{
     width: 100vw;
-    -webkit-filter: brightness(50%);
-    filter: brightness(50%);
 }

@@ -9,8 +9,8 @@ function Index() {
     return (
         <div>
             <Nosotros />
-            <Cards />
-            <Servicios />
+{/*             <Cards />
+ */}            <Servicios />
             <Portfolio />
             <Contacto />
         </div>

@@ -1,0 +1,45 @@
+.servicios{
+    margin: 2.5rem auto;
+}
+
+.servicios .volanta{
+    font-size: 5vw;
+    margin: 1rem 5vw -0rem;
+    color: #000;
+    font-family: 'Lato', sans-serif;
+}
+
+.servicios .titulo{
+    font-size: 8vw;
+    margin-left: 5vw;
+    color: #5c5188;
+    font-family: 'Anton', sans-serif;
+}
+
+.servicios .Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.servicios .Container .card{
+    width: 90vw;
+    display: flex;
+    margin: 1rem auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border-radius: 10px;
+}
+
+.servicios .Container .card .texto{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.05rem;
+    margin: 0 1rem 1.5rem;
+}
+
+.servicios .Container .card .subtitulo{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 6vw;
+    margin-bottom: 0.5rem;
+}

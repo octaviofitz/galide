@@ -1,51 +1,62 @@
-.clientes .container{
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    justify-content: center;
-}
-
 .clientes .volanta{
-    font-size: 1.20rem;
-    margin: 1rem 8vw -0rem;
+    font-size: 5vw;
+    margin: 1rem 5vw -0rem;
     color: #000;
 }
 
 .clientes .titulo{
-    font-size: 1.85rem;
-    margin-left: 8vw;
+    font-size: 8vw;
+    margin-left: 5vw;
     color: #5c5188;
     font-family: 'Anton', sans-serif;
 }
 
-.clientes .container .card{
+.clientes .Container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.clientes .Container .card{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     margin: 2rem 0;
     box-shadow: red;
     display: flex;
     justify-content: center;
     margin: 1rem auto;
+    width: 90vw;
+    border-radius: 10px;
 }
 
-.clientes .container .card .img{
-    width: 85vw;
+.clientes .Container .card .img{
+   width: 80vw;
+   display: flex;
+   margin: auto;
 }
 
 @media (min-width: 768px){
-    .clientes .container .card .img{
+    .clientes .Container .card .img{
         width: 65vw;
     }
     
 }
 
 @media (min-width: 1024px){
-    .clientes .container{
+    .clientes .Container{
         flex-direction: row;
+        justify-content: space-between;
     }
 
-    .clientes .container .card{
+    .clientes .Container .card{
+        width: 100vw;
+        margin: 1rem 3rem;
+        display: flex;
+    }
+
+    .clientes .Container .card .img{
         width: 30vw;
-        margin: 1rem auto;
     }
 
     

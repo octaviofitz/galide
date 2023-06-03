@@ -1,12 +1,13 @@
 .contacto .volanta{
-    font-size: 1.20rem;
-    margin: 1rem 8vw -0rem;
+    font-size: 5vw;
+    margin: 1rem 10vw -0rem;
     color: #000;
 }
 
 .contacto .titulo{
-    font-size: 1.85rem;
-    margin-left: 8vw;
+    font-size: 8vw;
+    margin-left: 10vw;
     color: #5c5188;
     font-family: 'Anton', sans-serif;
 }
+
