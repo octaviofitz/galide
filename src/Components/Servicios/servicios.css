@@ -34,6 +34,7 @@
     font-family: 'Lato', sans-serif;
     font-size: 1.05rem;
     margin: 0 1rem 1.5rem;
+    text-align: center;
 }
 
 .servicios .Container .card .subtitulo{
@@ -42,4 +43,13 @@
     font-weight: 700;
     font-size: 6vw;
     margin-bottom: 0.5rem;
+    text-transform: uppercase;
+}
+
+.servicios .Container .icono{
+    display: flex;
+    margin: -0.3rem auto 0.3rem;
+    color: #5c5188;
+    font-size: 8vw;
+    font-weight: 900s;
 }

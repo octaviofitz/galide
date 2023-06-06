@@ -10,7 +10,7 @@ function Nosotros() {
 
         <div className='Container'>
             <div>
-                <img src={process.env.PUBLIC_URL + "/img/nosotros/nosotros.jpg"} alt='Nosotros Galidé' className='img' />
+                <img src={process.env.PUBLIC_URL + "/img/nosotros/nosotros.png"} alt='Nosotros Galidé' className='img' />
             </div>
             <div>
                 <h4 className='subtitulo'>Empresa de Marketing Digital, Publicidad y Desarrollo Web</h4>

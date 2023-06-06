@@ -7,9 +7,14 @@
   margin-top: 0.35rem;
 }
 
-.footer .links{
+.navBar .links{
   font-family: 'Lato', sans-serif;
   font-weight: 600;
   text-align: center;
 }
+
+.navBar .links:hover{
+  color: #5c5188;
+}
+
 

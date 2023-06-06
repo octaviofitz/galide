@@ -26,7 +26,7 @@ function Contacto() {
         <TextField id="filled-basic" label="Correo" variant="outlined" className='Input'/>
         <TextField id="standard-basic" label="Teléfono" variant="outlined" className='Input'/>
         </div>
-        <Button variant="contained" className='boton'>Contained</Button>
+        <Button variant="contained" className='boton'>Enviar</Button>
       </Box>
       </div>
       </section>

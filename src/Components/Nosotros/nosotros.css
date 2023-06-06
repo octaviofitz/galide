@@ -4,13 +4,13 @@
 
 .nosotros .volanta{
     font-size: 5vw;
-    margin: 1rem 10vw -0rem;
+    margin: 1rem 5vw -0rem;
     color: #000;
 }
 
 .nosotros .titulo{
     font-size: 8vw;
-    margin-left: 10vw;
+    margin-left: 5vw;
     color: #5c5188;
     font-family: 'Anton', sans-serif;
 }
@@ -28,7 +28,8 @@
 .nosotros .Container .img{
     width: 80vw;
     display: flex;
-    margin: auto;
+    margin: 1.5rem auto 0.5rem;
+    border-radius: 10px;
 }
 
 .nosotros .Container .subtitulo{
@@ -36,6 +37,7 @@
     margin: 0.5rem 8vw;
     font-family: 'Lato', sans-serif;
     text-align: center;
+    font-weight: 500;
 }
 
 .nosotros .Container .texto{

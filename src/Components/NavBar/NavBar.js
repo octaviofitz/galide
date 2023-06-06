@@ -9,7 +9,7 @@ import '../NavBar/navBar.css';
 
 function BasicExample() {
   return (
-    <Navbar bg="light" expand="lg" className='footer'>
+    <Navbar bg="light" expand="lg" className='navBar'>
       <Container>
       <Navbar.Brand><Link to='/'><img src={process.env.PUBLIC_URL + "/img/icono.png"} className='logo' alt='FC producciones' /></Link></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
