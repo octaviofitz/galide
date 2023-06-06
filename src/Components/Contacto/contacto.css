@@ -11,3 +11,27 @@
     font-family: 'Anton', sans-serif;
 }
 
+.contacto .Formulario{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem auto;
+    width: 80vw;
+}
+
+.contacto .Formulario .Input{
+    margin: 0.5rem 0
+}
+
+.contacto .boton{
+    display: flex;
+    justify-content: center;
+    margin: 1rem auto;
+    background-color: #5c5188;
+    color: #fff;
+}
+
+.contacto .boton:hover{
+    background-color: #5c5188;
+    opacity: 0.99;
+    color: #fff;
+}
