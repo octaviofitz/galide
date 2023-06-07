@@ -1,6 +1,4 @@
 .contacto{
-    margin-top: 1rem;
-    background-color: rgb(252, 252, 252);
     padding: 1rem 0;
 }
 
@@ -39,6 +37,8 @@
     margin: 1rem auto;
     background-color: #5c5188;
     color: #fff;
+    font-size: 1.2rem;
+    width: 50vw;
 }
 
 .contacto .boton:hover{

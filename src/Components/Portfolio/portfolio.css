@@ -1,3 +1,8 @@
+.clientes{
+    background-color: rgb(252, 252, 252);
+    padding: 0.75rem 0;
+}
+
 .clientes .volanta{
     font-size: 5vw;
     margin: 1rem 5vw -0rem;
@@ -43,19 +48,28 @@
 }
 
 @media (min-width: 1024px){
+
+    .clientes .volanta{
+        font-size: 2vw;
+    }
+    
+    .clientes .titulo{
+        font-size: 5vw;
+    }
+
     .clientes .Container{
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: center;
     }
 
     .clientes .Container .card{
-        width: 100vw;
+        width: 30vw;
         margin: 1rem 3rem;
         display: flex;
     }
 
     .clientes .Container .card .img{
-        width: 30vw;
+        width: 25vw;
     }
 
     

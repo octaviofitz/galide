@@ -17,4 +17,10 @@
   color: #5c5188;
 }
 
+@media (min-width: 1024px){
+  /* .NavBar{
+    display: flex;
+    justify-content: space-between;
+  } */
+}
 

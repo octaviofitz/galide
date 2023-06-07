@@ -13,7 +13,7 @@ function Servicios() {
             <div className='Container'>
                 
                 <div className='card'>
-                    <img src={process.env.PUBLIC_URL + "/img/servicios/desarrolloWeb.jpg"} alt='Desarrollo web' className='img' />
+                    <img src={process.env.PUBLIC_URL + "/img/servicios/desarrolloWeb.png"} alt='Desarrollo web' className='img' />
                     <p className='subtitulo'>Desarrollo web</p>
                     <ComputerIcon className='icono' />
 
@@ -21,7 +21,7 @@ function Servicios() {
                 </div>
 
                 <div className='card'>
-                <img src={process.env.PUBLIC_URL + "/img/servicios/.jpg"} alt='Redes sociales' className='img' />
+                <img src={process.env.PUBLIC_URL + "/img/servicios/redes.png"} alt='Redes sociales' className='img' />
                 <p className='subtitulo'>Redes sociales</p>
                 <SystemSecurityUpdateGoodOutlinedIcon className='icono'/>
                     <p className='texto'>Ofrecemos servicios de gestión de redes sociales. Nos encargamos de administrar las cuentas del cliente, creando contenido innovador y atractivo para aumentar su presencia en las redes. Confía en nosotros para impulsar tu marca y llegar a tu audiencia de manera efectiva.</p>
@@ -29,7 +29,7 @@ function Servicios() {
               
 
                 <div className='card'>
-                <img src={process.env.PUBLIC_URL + "/img/servicios/redes.jpg"} alt='Publicidad' className='img' />
+                <img src={process.env.PUBLIC_URL + "/img/servicios/pub.jpg"} alt='Publicidad' className='img' />
                 <p className='subtitulo'>Publicidad</p>
                 <StackedLineChartOutlinedIcon className='icono' />
                     <p className='texto'>Potenciamos tu marca mediante publicidad en redes sociales. Con estrategias efectivas, segmentación precisa y contenido cautivador, alcanzamos a tu audiencia y logramos resultados impactantes. Aprovecha el alcance masivo de las redes sociales para destacar en el mercado.</p>
