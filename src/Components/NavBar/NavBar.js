@@ -16,9 +16,9 @@ function BasicExample() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#nosotros" className='links'>NOSOTROS</Nav.Link>
-            <Nav.Link href="#link" className='links'>SERVICIOS</Nav.Link>
-            <Nav.Link href="#link" className='links'>CLIENTES</Nav.Link>
-            <Nav.Link href="#link" className='links'>CONTACTO</Nav.Link>
+            <Nav.Link href="#servicios" className='links'>SERVICIOS</Nav.Link>
+            <Nav.Link href="#clientes" className='links'>CLIENTES</Nav.Link>
+            <Nav.Link href="#contacto" className='links'>CONTACTO</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

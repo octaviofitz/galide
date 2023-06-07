@@ -8,7 +8,7 @@ import './contacto.css';
 function Contacto() {
     return (
 
-        <section className='contacto'>
+        <section className='contacto' id='contacto'>
             <p className='volanta'>¿Tenés algún proyecto en mente?</p>
             <h3 className='titulo'>CONTACTO</h3>
        
@@ -25,6 +25,14 @@ function Contacto() {
         <TextField id="outlined-basic" label="Nombre" variant="outlined" className='Input' />
         <TextField id="filled-basic" label="Correo" variant="outlined" className='Input'/>
         <TextField id="standard-basic" label="Teléfono" variant="outlined" className='Input'/>
+        <TextField
+          id="filled-multiline-static"
+          label="Mensaje"
+          multiline
+          rows={4}
+          className='Input'
+        />
+        
         </div>
         <Button variant="contained" className='boton'>Enviar</Button>
       </Box>

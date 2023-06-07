@@ -1,3 +1,7 @@
+.contacto{
+    margin-top: 3rem;
+}
+
 .contacto .volanta{
     font-size: 5vw;
     margin: 1rem 10vw -0rem;
@@ -34,4 +38,18 @@
     background-color: #5c5188;
     opacity: 0.99;
     color: #fff;
+}
+
+/* formulario */
+
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline,
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline,
+.css-yjsfm1{
+    color: #5c5188!important;
+    border-color: #5c5188!important;
+}
+
+.contacto legend,
+.css-yjsfm1{
+    color: red!important;
 }

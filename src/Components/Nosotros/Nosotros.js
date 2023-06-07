@@ -4,7 +4,7 @@ import './nosotros.css';
 
 function Nosotros() {
     return (
-        <section className='nosotros'>
+        <section className='nosotros' id='nosotros'>
         <p className='volanta'>Nosotros</p>
         <h3 className='titulo'>¿QUIÉNES SOMOS?</h3>
 

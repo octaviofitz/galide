@@ -6,7 +6,7 @@ import './servicios.css'
 
 function Servicios() {
     return (
-        <section className='servicios'>
+        <section className='servicios' id='servicios'>
             <p className='volanta'>¿Qué ofrecemos?</p>
             <h3 className='titulo'>NUESTROS SERVICIOS</h3>
 
