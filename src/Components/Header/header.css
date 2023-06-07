@@ -1,3 +1,24 @@
-.header .img{
-    width: 100vw;
+
+.header{
+    background: linear-gradient(rgba(2,2,2,.7),rgba(0,0,0,.7)),url('../../../public/img/header/header.jpg') 50%;
+    background-size: cover;
+  width: 100vw;
+  height: 75vh;
+}
+
+.header .Container .titulo{
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    padding: 23vh 5vw 3vw;
+    color: #fff;
+}
+
+.header .Container .boton{
+    display: flex;
+    margin: auto;
+    background-color: #5c5188;
+    padding: 0.7rem 2rem;
+    font-size: 1.25rem;
 }

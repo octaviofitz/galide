@@ -1,5 +1,7 @@
 .servicios{
     margin: 2.5rem auto;
+    background-color: rgb(219, 61, 55);
+    padding: 0.5rem 0 2rem;
 }
 
 .servicios .volanta{

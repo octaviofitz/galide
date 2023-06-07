@@ -11,7 +11,7 @@ function Contacto() {
         <section className='contacto' id='contacto'>
             <p className='volanta'>¿Tenés algún proyecto en mente?</p>
             <h3 className='titulo'>CONTACTO</h3>
-       
+            <p className='texto'>Contactanos hoy mismo y descubre cómo podemos potenciar tu negocio con estrategias de marketing efectivas.</p>
         <div>
         <Box
         component="form"

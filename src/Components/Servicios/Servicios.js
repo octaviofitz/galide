@@ -21,7 +21,7 @@ function Servicios() {
                 </div>
 
                 <div className='card'>
-                <img src={process.env.PUBLIC_URL + "/img/servicios/redes.jpg"} alt='Redes sociales' className='img' />
+                <img src={process.env.PUBLIC_URL + "/img/servicios/.jpg"} alt='Redes sociales' className='img' />
                 <p className='subtitulo'>Redes sociales</p>
                 <SystemSecurityUpdateGoodOutlinedIcon className='icono'/>
                     <p className='texto'>Ofrecemos servicios de gestión de redes sociales. Nos encargamos de administrar las cuentas del cliente, creando contenido innovador y atractivo para aumentar su presencia en las redes. Confía en nosotros para impulsar tu marca y llegar a tu audiencia de manera efectiva.</p>

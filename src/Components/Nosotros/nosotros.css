@@ -33,11 +33,10 @@
 }
 
 .nosotros .Container .subtitulo{
-    font-size: 1.5rem;
+    font-size: 1.35rem;
     margin: 0.5rem 8vw;
     font-family: 'Lato', sans-serif;
-    text-align: center;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .nosotros .Container .texto{

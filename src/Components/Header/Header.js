@@ -1,12 +1,15 @@
 import React from 'react';
-
+import Button from '@mui/material/Button';
 
 import './header.css'
 
 function Header() {
     return (
         <section className='header'>
-                <img src={process.env.PUBLIC_URL + "/img/header/header.jpg"} className='img' /> 
+              <div className='Container'>
+                <h1 className='titulo'>Desarrollamos soluciones digitales que impulsen tu negocio</h1>
+                <Button variant="contained" className='boton'>CONTACTANOS</Button>
+                </div>
         </section>
     );  
 }
