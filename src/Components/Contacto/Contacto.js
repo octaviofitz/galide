@@ -9,7 +9,8 @@ function Contacto() {
     return (
 
         <section className='contacto' id='contacto'>
-            <p className='volanta'>¿Tenés algún proyecto en mente?</p>
+            <p className='volanta'>¿Algún proyecto en mente?</p>
+            <hr className='linea'></hr>
             <h3 className='titulo'>CONTACTO</h3>
             <p className='texto'>Contactanos hoy mismo y descubre cómo podemos potenciar tu negocio con estrategias de marketing efectivas.</p>
         <div>

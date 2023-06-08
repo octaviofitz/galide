@@ -1,7 +1,7 @@
 .servicios{
     margin: 2.5rem auto 0;
-    background-color: #cad6e7;
-    padding: 0.5rem 0 2rem;
+    background-color: #dde3eb;
+    padding: 0.5rem 0 0rem;
 }
 
 .servicios .volanta{
@@ -9,6 +9,18 @@
     margin: 1rem 5vw -0rem;
     color: #000;
     font-family: 'Lato', sans-serif;
+}
+
+.servicios .volanta,
+.servicios .linea{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.servicios .linea{
+    border: 1px solid red;
+    width: 30vw;
+    margin-top: 2rem;
 }
 
 .servicios .titulo{

@@ -1,5 +1,5 @@
 .clientes{
-    background-color: rgb(252, 252, 252);
+    background-color: #dde3eb;
     padding: 0.75rem 0;
 }
 
@@ -7,11 +7,25 @@
     font-size: 5vw;
     margin: 1rem 5vw -0rem;
     color: #000;
+    font-family: 'Lato', sans-serif;
+}
+
+.clientes .volanta,
+.clientes .linea{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.clientes .linea{
+    border: 1px solid red;
+    width: 30vw;
+    margin-top: 2rem;
 }
 
 .clientes .titulo{
     font-size: 8vw;
     margin-left: 5vw;
+    margin-right: 5vw;
     color: #5c5188;
     font-family: 'Anton', sans-serif;
 }

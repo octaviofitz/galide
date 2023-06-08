@@ -1,0 +1,19 @@
+.tecnologias{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #fff;
+    padding: 5vw 10vw 5vw;
+    margin-top: 5vw;
+}
+
+.tecnologias .img{
+    width: 28vw;
+    filter: grayscale(100%);
+    padding: 0.5rem 0;
+}
+
+.tecnologias .img:hover{
+    filter: none;
+}

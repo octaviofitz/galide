@@ -5,8 +5,9 @@ import './portfolio.css';
 function Portfolio() {
     return (
         <section className='clientes' id='clientes'>
-            <p className='volanta'>Confían en nosotros</p>
-            <h3 className='titulo'>NUESTROS CLIENTES</h3>
+            <p className='volanta'>Portfolio</p>
+            <hr className='linea'></hr>
+            <h3 className='titulo'>ALGUNOS DE NUESTROS CLIENTES</h3>
 
             <div className='Container'>
                 <div className='card'>
