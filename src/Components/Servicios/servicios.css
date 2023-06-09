@@ -41,7 +41,7 @@
     display: flex;
     margin: 1rem auto;
     border-radius: 10px;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
 }
 
 .servicios .Container .card .img{
@@ -172,4 +172,21 @@
 .servicios .Container .icono{
     font-size: 4vw;
 }
+}
+
+@media (min-width:1440px){
+
+    .servicios .volanta,
+.servicios .titulo{
+    margin-left: 7vw;
+}
+
+    .servicios .Container .card{
+        width: 35vw;
+    }
+
+    .servicios .Container .card .img{
+        width: 25vw;
+        padding-top: 0.5rem;
+    }
 }

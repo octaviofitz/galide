@@ -93,7 +93,7 @@
     }
 
     .contacto .titulo{
-        margin-top: 0.75rem;
+        margin-top: 0.25rem;
         font-size: 3vw;
     }
 
@@ -112,5 +112,21 @@
         margin: 1rem auto;
         font-size: 1.2rem;
         width: 20vw;
+    }
+}
+
+@media (min-width: 1440px){
+    .contacto .volanta,
+    .contacto .titulo,
+    .contacto .texto{
+    margin-left: 7vw;
+}
+
+    .contacto .titulo{
+        margin-top: -0.25rem;
+    }
+
+    .contacto .texto{
+        font-size: 1.3rem;
     }
 }

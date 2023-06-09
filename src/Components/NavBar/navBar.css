@@ -17,10 +17,9 @@
   color: #5c5188;
 }
 
-@media (min-width: 1024px){
-  /* .NavBar{
-    display: flex;
-    justify-content: space-between;
-  } */
+@media (min-width: 1000px){
+  .navbar-collapse{
+    flex-grow: 0;
+  }
 }
 

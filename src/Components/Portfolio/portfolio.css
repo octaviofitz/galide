@@ -39,8 +39,8 @@
 }
 
 .clientes .Container .card{
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;    margin: 2rem 0;
-    box-shadow: red;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+    margin: 2rem 0;
     display: flex;
     justify-content: center;
     margin: 1rem auto;
@@ -91,6 +91,7 @@
     .clientes .Container{
         flex-direction: row;
         justify-content: center;
+        margin-top: 1.5rem;
     }
 
     .clientes .Container .card:first-child{
@@ -105,11 +106,24 @@
         width: 30vw;
         margin: 1rem 1rem;
         display: flex;
+        padding: 1rem;
     }
 
     .clientes .Container .card .img{
         width: 25vw;
     }
+}
 
-    
+@media (min-width: 1440px){
+    .clientes .volanta,
+    .clientes .titulo{
+    margin-left: 7vw;
+}
+    .clientes .Container .card{
+    width: 27.5vw;
+    margin: 1rem 1rem;
+    display: flex;
+}
+
+
 }

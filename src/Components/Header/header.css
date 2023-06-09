@@ -37,11 +37,24 @@
 @media (min-width: 1024px){
     .header .Container .titulo{
         font-size: 3.8rem;
-        padding: 15vh 15vw 3vw;
+        padding: 15vh 22vw 3vw;
     }
     
     .header .Container .boton{
         padding: 0.7rem 2rem;
         font-size: 1.25rem;
+    }
+}
+
+@media (min-width: 1440px){
+    .header .Container .titulo{
+        font-size: 4vw;
+        padding: 15vh 30vw 3vw;
+    }
+
+    .header .Container .boton{
+        padding: 0.5rem 2rem;
+        margin-top: -1rem;
+        font-size: 1.6vw;
     }
 }

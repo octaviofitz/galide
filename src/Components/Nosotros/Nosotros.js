@@ -15,7 +15,7 @@ function Nosotros() {
             </div>
             <div>
                 <h4 className='subtitulo'>GALIDÉ</h4>
-                <p className='texto'>Somos una agencia de marketing digital en Buenos Aires que ofrece servicios de publicidad, diseño web, SEO y gestión de redes sociales. Nuestra misión es ayudar a las empresas a alcanzar sus objetivos de marketing a través de estrategias innovadoras, creativas y eficaces.</p>
+                <p className='texto'>Somos una agencia de marketing digital en Buenos Aires que se especializa en ayudar a las empresas a alcanzar sus objetivos en el entorno digital. Ofrecemos servicios integrales de publicidad, diseño web, SEO y gestión de redes sociales para mejorar la visibilidad y el alcance de las empresas en línea. Además, brindamos protección de marca para preservar la identidad y reputación de las empresas, manteniéndolas seguras de posibles amenazas en el entorno digital en constante cambio.</p>
             </div>
         </div>
     </section>

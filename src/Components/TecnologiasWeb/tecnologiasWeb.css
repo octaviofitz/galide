@@ -34,3 +34,10 @@
         width: 25vw
     }
 }
+
+@media (min-width: 1440px){
+    .tecnologias .img{
+        width: 25vw;
+        padding: 1vh 5vw;
+    }
+}
