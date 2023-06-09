@@ -63,8 +63,15 @@
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     font-size: 6vw;
-    margin-bottom: 0.5rem;
+    margin-bottom: -0.5rem;
     text-transform: uppercase;
+}
+
+.servicios .Container .card hr{
+    color: red;
+    width: 70vw;
+    display: flex;
+    margin: 1rem auto 0.5rem;
 }
 
 .servicios .Container .icono{
@@ -75,18 +82,40 @@
     font-weight: 900s;
 }
 
-@media (min-width: 1024px){
+@media (min-width: 768px){
+
+    .servicios .volanta{
+        font-size: 3vw;
+    }
+
+    .servicios .titulo{
+        font-size: 5vw;
+    }
+
+    .servicios .linea{
+        width: 20vw;
+    }
+
     .servicios .Container{
         flex-direction: row;
+        flex-wrap: wrap;
     }
 
     .servicios .Container .card{
-        width: 28vw;
+        width: 40vw;
     }
 
     .servicios .Container .card .img{
-        width: 20vw;
+        width: 35vw;
     }
+
+    .servicios .Container .card hr{
+        color: red;
+        width: 40vw;
+        display: flex;
+        margin: 0rem auto 0.5rem;
+    }
+    
 
 .servicios .Container .card .texto{
     font-size: 1.05rem;
@@ -96,6 +125,46 @@
 
 .servicios .Container .card .subtitulo{
     font-size: 3vw;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+}
+
+}
+
+@media (min-width: 1024px){
+
+    .servicios .volanta{
+        font-size: 1.8vw;
+    }
+
+    .servicios .titulo{
+        font-size: 3vw;
+    }
+
+    .servicios .linea{
+        width: 20vw;
+    }
+
+    .servicios .Container .card{
+        width: 40vw;
+    }
+
+    .servicios .Container .card .img{
+        width: 33vw;
+        padding-top: 0.5rem;
+    }
+
+    .servicios .Container .card hr{
+        width: 30vw;
+    }
+
+.servicios .Container .card .texto{
+    font-size: 1.15rem;
+    margin: 0.2rem 2rem 1rem;
+}
+
+.servicios .Container .card .subtitulo{
+    font-size: 2vw;
     margin-bottom: 0.5rem;
     text-transform: uppercase;
 }

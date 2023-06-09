@@ -22,10 +22,22 @@
     font-size: 1.1rem;
 }
 
+@media (min-width: 768px){
+    .header .Container .titulo{
+        font-size: 3.8rem;
+        padding: 13vh 10vw 3vw;
+    }
+    
+    .header .Container .boton{
+        padding: 0.7rem 2rem;
+        font-size: 1.25rem;
+    }
+}
+
 @media (min-width: 1024px){
     .header .Container .titulo{
-        font-size: 5rem;
-        padding: 23vh 15vw 3vw;
+        font-size: 3.8rem;
+        padding: 15vh 15vw 3vw;
     }
     
     .header .Container .boton{

@@ -17,3 +17,20 @@
 .tecnologias .img:hover{
     filter: none;
 }
+
+@media (min-width: 768px){
+    .tecnologias{
+        padding: 3vw 10vw 2vw;
+        margin-top: 5vw;
+    }
+
+    .tecnologias .img{
+        width: 25vw
+    }
+}
+
+@media (min-width: 1024px){
+    .tecnologias .img{
+        width: 25vw
+    }
+}

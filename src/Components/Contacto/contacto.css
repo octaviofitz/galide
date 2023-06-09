@@ -61,16 +61,56 @@
     color: #fff;
 }
 
-/* formulario */
 
-.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline,
-.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline,
-.css-yjsfm1{
-    color: #5c5188!important;
-    border-color: #5c5188!important;
+@media (min-width: 768px){
+    .contacto .volanta{
+        font-size: 3vw;
+    }
+
+    .contacto .titulo{
+        font-size: 5vw;
+    }
+
+    .contacto .linea{
+        width: 20vw;
+    }
+
+    .contacto .texto{
+        margin: 0.5rem 10vw 0 5vw;
+        font-size: 1.15rem;
+    }
 }
 
-.contacto legend,
-.css-yjsfm1{
-    color: red!important;
+@media (min-width: 1024px){
+    .contacto{
+        display: flex;
+        justify-content: center;
+        margin: 0 5vw 0 1vw;
+    }
+
+    .contacto .volanta{
+        font-size: 1.8vw;
+    }
+
+    .contacto .titulo{
+        margin-top: 0.75rem;
+        font-size: 3vw;
+    }
+
+    .contacto .linea{
+        display: none;
+    }
+
+    .contacto .Formulario{
+        display: flex;
+        flex-direction: column;
+        margin: 1rem auto;
+        width: 45vw;
+    }
+
+    .contacto .boton{
+        margin: 1rem auto;
+        font-size: 1.2rem;
+        width: 20vw;
+    }
 }

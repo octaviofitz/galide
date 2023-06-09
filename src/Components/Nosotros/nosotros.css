@@ -58,3 +58,64 @@
     margin: 0.5rem 8vw 1.5rem;
     font-family: 'Lato', sans-serif;
 }
+
+@media(min-width: 768px){
+
+    .nosotros .volanta{
+        font-size: 3vw;
+    }
+
+    .nosotros .titulo{
+        font-size: 5vw;
+    }
+
+    .nosotros .linea{
+        width: 20vw;
+    }
+
+    .nosotros .Container{
+        width: 70vw;
+        margin: 1rem auto;
+    }
+    
+    .nosotros .Container .img{
+        width: 60vw;
+        display: flex;
+        margin: 1.5rem auto 0.5rem;
+        border-radius: 10px;
+    }
+    
+}
+
+@media (min-width: 1024px){
+
+    .nosotros .Container{
+        flex-direction: row;
+    }
+
+    
+    .nosotros .volanta{
+        font-size: 1.8vw;
+    }
+
+    .nosotros .titulo{
+        font-size: 3vw;
+    }
+
+
+    .nosotros .Container{
+        width: 70vw;
+    }
+
+    .nosotros .Container .img{
+        width: 35vw;
+        margin: 1.5rem auto 0.5rem;
+    }
+
+    .nosotros .Container .texto{
+        font-size: 1.5rem;
+        margin: 0.5rem 1vw 1.5rem;
+        font-family: 'Lato', sans-serif;
+    }
+    
+}
