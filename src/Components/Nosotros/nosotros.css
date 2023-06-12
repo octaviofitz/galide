@@ -110,11 +110,13 @@
 
     .nosotros .Container .img{
         width: 40vw;
-        margin: 1.5rem auto 0.5rem;
+        margin: 1.5rem auto 1.5rem;
+        margin-left: 2rem;
     }
 
     .nosotros .Container .subtitulo{
         font-size: 3vw;
+        margin-top: 1rem;
     }
 
     .nosotros .Container .texto{
@@ -144,8 +146,12 @@
 }
 
 .nosotros .Container .texto{
-    font-size: 1.6vw;
-    margin: 0.5rem 3vw 1.5rem;
-    font-family: 'Lato', sans-serif;
+    font-size: 1.4vw;
+   margin-top: 2rem;
+}
+
+.nosotros .Container .subtitulo{
+    font-size: 3.5vw;
+    margin-top: 2rem;
 }
 }

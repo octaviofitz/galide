@@ -72,6 +72,7 @@
     width: 70vw;
     display: flex;
     margin: 1rem auto 0.5rem;
+    border: 1.75px solid red
 }
 
 .servicios .Container .icono{
@@ -111,7 +112,7 @@
 
     .servicios .Container .card hr{
         color: red;
-        width: 40vw;
+        width: 30vw;
         display: flex;
         margin: 0rem auto 0.5rem;
     }
@@ -133,6 +134,10 @@
 
 @media (min-width: 1024px){
 
+    .servicios{
+        padding-top: 1.5rem;
+    }
+
     .servicios .volanta{
         font-size: 1.8vw;
     }
@@ -147,6 +152,7 @@
 
     .servicios .Container .card{
         width: 40vw;
+        margin-top: 2.5rem;
     }
 
     .servicios .Container .card .img{
@@ -175,6 +181,11 @@
 }
 
 @media (min-width:1440px){
+
+    .servicios{
+        padding-top: 2rem;
+        padding-bottom: -1rem;
+    }
 
     .servicios .volanta,
 .servicios .titulo{

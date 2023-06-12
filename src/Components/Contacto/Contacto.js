@@ -11,7 +11,7 @@ function Contacto() {
         <section className='contacto' id='contacto'>
           <div>
             <p className='volanta'>¿Algún proyecto en mente?</p>
-            <hr className='linea'></hr>
+           {/*  <hr className='linea'></hr> */}
             <h3 className='titulo'>CONTACTO</h3>
             <p className='texto'>Contactanos hoy mismo y descubre cómo podemos potenciar tu negocio con estrategias de marketing efectivas.<br></br>Completá el siguiente formulario y recibirás respuesta a la brevedad. También podés comunicarte a través de nuestro correo electrónico hola@galide.com.ar</p>
             </div>

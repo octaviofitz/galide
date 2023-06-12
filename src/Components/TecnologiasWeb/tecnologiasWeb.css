@@ -36,6 +36,12 @@
 }
 
 @media (min-width: 1440px){
+
+    .tecnologias{
+        padding: 3vw 10vw 2vw;
+        margin-top: 3vw;
+    }
+
     .tecnologias .img{
         width: 25vw;
         padding: 1vh 5vw;

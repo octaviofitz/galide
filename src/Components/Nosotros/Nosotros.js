@@ -6,7 +6,7 @@ function Nosotros() {
     return (
         <section className='nosotros' id='nosotros'>
         <p className='volanta'>Nosotros</p>
-        <hr className='linea'></hr>
+        {/* <hr className='linea'></hr> */}
         <h3 className='titulo'>¿QUIÉNES SOMOS?</h3>
 
         <div className='Container'>
