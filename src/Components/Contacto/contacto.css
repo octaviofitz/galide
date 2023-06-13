@@ -97,8 +97,9 @@
         font-size: 3vw;
     }
 
-    .contacto .linea{
-        display: none;
+    .contacto .texto{
+        font-size: 1.1rem;
+        letter-spacing: 0.85px;
     }
 
     .contacto .Formulario{
