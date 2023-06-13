@@ -57,7 +57,7 @@
 
     padding: 2rem 0rem 0rem;
   width: 90vw;
-  margin: 5vw 0;
+  margin: 5vw auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
