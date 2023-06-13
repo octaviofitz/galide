@@ -12,6 +12,8 @@
     width: 28vw;
     filter: grayscale(100%);
     padding: 0.5rem 0;
+    animation: fadeInUp; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 7s; /* don't forget to set a duration! */
 }
 
 .tecnologias .img:hover{

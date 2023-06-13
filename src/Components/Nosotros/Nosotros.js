@@ -1,10 +1,11 @@
 import React from 'react';
+import 'animate.css';
 
 import './nosotros.css';
 
 function Nosotros() {
     return (
-        <section className='nosotros' id='nosotros'>
+        <section className='nosotros animate__fadeInLeft' id='nosotros'>
         <p className='volanta'>Nosotros</p>
         {/* <hr className='linea'></hr> */}
         <h3 className='titulo'>¿QUIÉNES SOMOS?</h3>

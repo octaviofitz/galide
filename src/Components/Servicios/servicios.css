@@ -42,7 +42,9 @@
     margin: 1rem auto;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px; */
-        padding: 2rem 0rem 0rem;
+      
+    
+   /*  padding: 2rem 0rem 0rem;
         margin: 5vw;
         display: inline-block;
         border: 3px solid #333333;
@@ -62,7 +64,35 @@
             left: 50%;
             transform: translate3d(-50%, -50%, 0) scale(1.015) rotate(0.5deg);
             border-radius: 1% 1% 2% 4% / 2% 6% 5% 4%;
-    }
+    } */
+
+    padding: 2rem 0rem 0rem;
+    width: 88vw;
+    margin: 5vw;
+    display: inline-block;
+    border: 3px solid #333333;
+    border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
+    letter-spacing: 0.1ch;
+    background: #ffffff;
+    position: relative;
+    font-family: 'Lato', sans-serif;
+}
+
+.servicios .Container .card::before{
+    content: '';
+    border: 2px solid #353535;
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1.035) rotate(1deg);
+    -webkit-transform: translate(-49.5%, -49.5%) scale(1.035) rotate(1deg);
+    -moz-transform: translate(-49.5%, -49.5%) scale(1.035) rotate(1deg);
+    -ms-transform: translate(-49.5%, -49.5%) scale(1.035) rotate(1deg);
+    -o-transform: translate(-49.5%, -49.5%) scale(1.035) rotate(1deg);
+    border-radius: 1% 1% 2% 4% / 2% 6% 5% 4%;
 }
 
 .servicios .Container .card:hover{
@@ -72,6 +102,18 @@
     -webkit-transition:.3s;
     transition:.3s;
     box-shadow: 10px 10px 5px #888888;
+}
+
+.servicios .Container #card1,
+.servicios .Container #card3{
+    animation: fadeInLeft; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 5s; /* don't forget to set a duration! */
+}
+
+.servicios .Container #card2,
+.servicios .Container #card4{
+    animation: fadeInRight; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 5s; /* don't forget to set a duration! */
 }
 
 .servicios .Container .card .img{
@@ -101,11 +143,11 @@
 }
 
 .servicios .Container .card hr{
-    color: red;
+    color: #5c5188;
     width: 70vw;
     display: flex;
     margin: 1rem auto 0.5rem;
-    border: 1.75px solid red
+    border: 1.75px solid #5c5188
 }
 
 @media (min-width: 768px){

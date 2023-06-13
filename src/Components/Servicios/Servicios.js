@@ -13,14 +13,14 @@ function Servicios() {
             <div className='Container'>
 
                 
-                 <div className='card'>
+                 <div className='card' id='card1'>
                 <img src={process.env.PUBLIC_URL + "/img/servicios/proteccion.jpg"} alt='Protección de marca' className='img' />
                 <p className='subtitulo'>Protección de Marca</p>
                 <hr></hr>
                    <p className='texto'>Nuestra agencia se enorgullece en ofrecer un servicio integral de protección de marca, destinado a garantizar la reputación, imagen y control de precios de nuestros valiosos clientes. Conscientes de la importancia de preservar la identidad y el prestigio de una marca, nos hemos especializado en desarrollar estrategias sólidas y eficientes para enfrentar los desafíos del mercado actual.</p>
                 </div>
                 
-                <div className='card'>
+                <div className='card' id='card2'>
                 <img src={process.env.PUBLIC_URL + "/img/servicios/redes.png"} alt='Redes sociales' className='img' />
                 <p className='subtitulo'>Redes sociales</p>
                 <hr></hr>
@@ -28,7 +28,7 @@ function Servicios() {
                 </div>
               
 
-                <div className='card'>
+                <div className='card' id='card3'>
                 <img src={process.env.PUBLIC_URL + "/img/servicios/pub.jpg"} alt='Publicidad' className='img' />
                 <p className='subtitulo'>SEO Y SEM</p>
                 <hr></hr>
@@ -36,7 +36,7 @@ function Servicios() {
                 </div>
 
 
-                <div className='card'>
+                <div className='card' id='card4'>
                     <img src={process.env.PUBLIC_URL + "/img/servicios/desarrolloWeb.png"} alt='Desarrollo web' className='img' />
                     <p className='subtitulo'>Desarrollo web</p>
                     <hr></hr>
