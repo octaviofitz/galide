@@ -11,13 +11,13 @@ function Portfolio() {
 
             <div className='Container'>
                 <div className='card'>
-                    <img src={process.env.PUBLIC_URL + "/img/clientes/prueba/vitalcan.png"} alt='Vitalcan' className='img'/>
+                    <img src={process.env.PUBLIC_URL + "/img/clientes/vitalcan.webp"} alt='Vitalcan' className='img'/>
                 </div>
                 <div className='card'>
-                     <img src={process.env.PUBLIC_URL + "/img/clientes/prueba/rubicat.png"} alt='Rubicat' className='img'/>
+                     <img src={process.env.PUBLIC_URL + "/img/clientes/rubicat.webp"} alt='Rubicat' className='img'/>
                 </div>
                 <div className='card'>
-                       <img src={process.env.PUBLIC_URL + "/img/clientes/prueba/marynor.png"} alt='Marynor' className='img'/>
+                       <img src={process.env.PUBLIC_URL + "/img/clientes/marynor.webp"} alt='Marynor' className='img'/>
                 </div>
             </div>
 

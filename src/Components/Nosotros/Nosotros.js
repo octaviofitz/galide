@@ -7,12 +7,11 @@ function Nosotros() {
     return (
         <section className='nosotros animate__fadeInLeft' id='nosotros'>
         <p className='volanta'>Nosotros</p>
-        {/* <hr className='linea'></hr> */}
         <h3 className='titulo'>¿QUIÉNES SOMOS?</h3>
 
         <div className='Container'>
             <div>
-                <img src={process.env.PUBLIC_URL + "/img/nosotros/nosotros.png"} alt='Nosotros Galidé' className='img' />
+                <img src={process.env.PUBLIC_URL + "/img/nosotros/nosotros.webp"} alt='Nosotros Galidé' className='img' />
             </div>
             <div>
                 <h4 className='subtitulo'>GALIDÉ</h4>
