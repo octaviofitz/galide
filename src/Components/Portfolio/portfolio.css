@@ -39,16 +39,7 @@
 }
 
 .clientes .Container .card{
-    /* box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
-    margin: 2rem 0;
-    display: flex;
-    justify-content: center;
-    margin: 1rem auto;
-    width: 90vw;
-    border-radius: 10px; */
-
-
-   /*  padding: 2rem 0rem 0rem;
+    padding: 2rem 0rem 0rem;
     width: 88vw;
     margin: 5vw;
     display: inline-block;
@@ -56,33 +47,11 @@
     border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
     letter-spacing: 0.1ch;
     background: #ffffff;
-    position: relative;    
-         font-family: 'Lato', sans-serif;
-        &::before {
-        content: '';
-        border: 2px solid #353535;
-        display: block;
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate3d(-50%, -50%, 0) scale(1.035) rotate(1deg);
-        border-radius: 1% 1% 2% 4% / 2% 6% 5% 4%;
-} */
-padding: 2rem 0rem 0rem;
-width: 88vw;
-margin: 5vw;
-display: inline-block;
-border: 3px solid #333333;
-border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
-letter-spacing: 0.1ch;
-background: #ffffff;
-position: relative;
-font-family: 'Lato', sans-serif;
-animation: backInDown; /* referring directly to the animation's @keyframe declaration */
-animation-duration: 7s; /* don't forget to set a duration! */
-}
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    animation: backInDown; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 7s; /* don't forget to set a duration! */
+    }
 
 .clientes .Container .card::before{
     content: '';
@@ -100,16 +69,6 @@ animation-duration: 7s; /* don't forget to set a duration! */
     -o-transform: translate(-49.5%, -49.5%) scale(1.035) rotate(1deg);
     border-radius: 1% 1% 2% 4% / 2% 6% 5% 4%;
 }
-
-
-/* .clientes .Container .card:hover{
-    -o-transition:3s;
-    -ms-transition:.3s;
-    -moz-transition:.3s;
-    -webkit-transition:.3s;
-    transition:.3s;
-    box-shadow: 10px 10px 5px #888888;
-} */
 
 .clientes .Container .card .img{
    width: 80vw;
@@ -171,7 +130,7 @@ animation-duration: 7s; /* don't forget to set a duration! */
         width: 30vw;
         margin: 1rem 1rem;
         display: flex;
-        padding: 1rem;
+        padding: 2rem 0 -2rem;
     }
 
     .clientes .Container .card .img{

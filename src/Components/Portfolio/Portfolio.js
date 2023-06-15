@@ -17,7 +17,7 @@ function Portfolio() {
                      <img src={process.env.PUBLIC_URL + "/img/clientes/rubicat.webp"} alt='Rubicat' className='img'/>
                 </div>
                 <div className='card'>
-                       <img src={process.env.PUBLIC_URL + "/img/clientes/marynor.webp"} alt='Marynor' className='img'/>
+                       <img src={process.env.PUBLIC_URL + "/img/clientes/petba.png"} alt='Marynor' className='img'/>
                 </div>
             </div>
 

@@ -23,9 +23,34 @@
   color: #5c5188;
 }
 
+.navBar .brand{
+  font-family: 'made sans';
+  color: black;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: 5vw;
+}
+
+.navBar .brand:hover{
+  color: #5c5188;
+}
+
+.navBar a{
+  text-decoration: none!important;
+}
+
+.navBar Link{
+  text-decoration: none!important;
+}
+
 @media (min-width: 1000px){
   .navbar-collapse{
     flex-grow: 0;
   }
+
+  .navBar .brand{
+    font-size: 36px;
+}
 }
 

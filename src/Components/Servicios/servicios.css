@@ -134,7 +134,8 @@
 .servicios .Container .card .subtitulo{
     text-align: center;
     font-family: 'Lato', sans-serif;
-    font-weight: 700;
+    font-weight: 400;
+    color: black;
     letter-spacing: 2px;
     font-size: 6vw;
     margin: 1rem;
