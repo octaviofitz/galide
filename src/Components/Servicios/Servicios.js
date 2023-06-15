@@ -37,7 +37,7 @@ function Servicios() {
 
 
                 <div className='card' id='card4'>
-                    <img src={process.env.PUBLIC_URL + "/img/servicios/desarrolloWeb.webp"} alt='Desarrollo web' className='img' />
+                    <img src={process.env.PUBLIC_URL + "/img/servicios/desarrolloweb.webp"} alt='Desarrollo web' className='img' />
                     <p className='subtitulo'>Desarrollo web</p>
                     <hr></hr>
                     <p className='texto'>En Galidé ofrecemos servicios de desarrollo web personalizados, adaptados a las necesidades de nuestros clientes. Utilizamos las últimas tecnologías y lenguajes de programación para crear sitios web modernos, funcionales y atractivos. Confía en nosotros para llevar tu presencia en línea al siguiente nivel.</p>
