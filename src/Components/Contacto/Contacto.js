@@ -57,10 +57,10 @@ const [botonMensaje, setBotonMensaje]= useState(false)
 //SweetAlert
 const mostrarAlerta=()=> {
   Swal.fire({
-    title: "¡Su mensaje ha sido enviado con éxito!",
+    title: "¡Tu mensaje ha sido enviado con éxito!",
     text: "En breve nos pondremos en contacto",
     icon: "success",
-    timer: "10000"
+    timer: "1000000"
   })
 }
 

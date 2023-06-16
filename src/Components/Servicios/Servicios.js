@@ -7,7 +7,6 @@ function Servicios() {
     return (
         <section className='servicios' id='servicios'>
             <p className='volanta'>¿Qué ofrecemos?</p>
-            {/* <hr className='linea'></hr> */}
             <h3 className='titulo'>NUESTROS SERVICIOS</h3>
 
             <div className='Container'>

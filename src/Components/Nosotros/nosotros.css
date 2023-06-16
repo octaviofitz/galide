@@ -68,15 +68,24 @@
     font-size: 2.5rem;
     margin: 0rem 8vw;
     font-family: 'made sans';
-    font-weight: 400;
+    font-weight: 600;
     text-align: center;
-    color: #5c5188;
+    color: #000;
+}
+
+.nosotros .Container .galaxia{
+    font-family: 'made sans';
+    font-weight: 600;
+    text-align: center;
+    font-size: 1.75rem;
+    margin: 0.15rem auto 1rem;
 }
 
 .nosotros .Container .texto{
     font-size: 1.2rem;
     margin: 0.5rem 5vw 0rem;
     font-family: 'Lato', sans-serif;
+    text-align: center;
 }
 
 @media(min-width: 768px){
@@ -105,6 +114,9 @@
         border-radius: 10px;
     }
     
+    .nosotros .Container .subtitulo{
+        margin: 0.5rem 8vw 0;
+    }
 }
 
 @media (min-width: 1024px){
@@ -139,8 +151,13 @@
         margin-top: 1rem;
     }
 
+    .nosotros .Container .galaxia{
+        margin-top: -0.15rem;
+        font-size: 2vw;
+    }
+
     .nosotros .Container .texto{
-        font-size: 1.6vw;
+        font-size: 1.5vw;
         margin: 0.5rem 3.5vw 1.5rem;
         font-family: 'Lato', sans-serif;
     }
@@ -166,8 +183,8 @@
 }
 
 .nosotros .Container .texto{
-    font-size: 1.4vw;
-   margin-top: 2rem;
+    font-size: 1.3vw;
+   margin-top: 1rem;
 }
 
 .nosotros .Container .subtitulo{

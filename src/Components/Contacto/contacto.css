@@ -68,6 +68,12 @@
     opacity: 0.8;
 }
 
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm{
+    width: 40vw;
+    background-color: #5c5188;
+    color: #fff;
+}
+
 @media (min-width: 768px){
     .contacto .volanta{
         font-size: 3vw;
@@ -120,6 +126,11 @@
         font-size: 1.2rem;
         width: 20vw;
     }
+
+    div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm{
+        width: 20vw;
+    }
+    
 }
 
 @media (min-width: 1440px){
@@ -135,5 +146,9 @@
 
     .contacto .texto{
         font-size: 1.3rem;
+    }
+
+    div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm{
+        width: 12vw;
     }
 }
