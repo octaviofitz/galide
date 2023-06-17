@@ -1,10 +1,12 @@
 import React from 'react';
+import {Slide} from "react-awesome-reveal";
 
 import './portfolio.css';
 
 function Portfolio() {
     return (
         <section className='clientes' id='clientes'>
+            <Slide direction='left' duration={2000}>
             <p className='volanta'>Portfolio</p>
             <h3 className='titulo'>ALGUNOS DE NUESTROS CLIENTES</h3>
 
@@ -19,7 +21,7 @@ function Portfolio() {
                        <img src={process.env.PUBLIC_URL + "/img/clientes/petba.png"} alt='Marynor' className='img'/>
                 </div>
             </div>
-
+            </Slide >
         </section>
     );
 }

@@ -1,11 +1,15 @@
 import React from 'react';
 import 'animate.css';
+import {Slide} from "react-awesome-reveal";
 
 import './nosotros.css';
 
 function Nosotros() {
+    
     return (
-        <section className='nosotros animate__fadeInLeft' id='nosotros'>
+        <section className='nosotros' id='nosotros'>
+        <Slide direction='left' duration={4000}>
+
         <p className='volanta'>Nosotros</p>
         <h3 className='titulo'>¿QUIÉNES SOMOS?</h3>
 
@@ -19,6 +23,7 @@ function Nosotros() {
                 <p className='texto'>Somos una agencia de marketing digital en Buenos Aires que se especializa en ayudar a las empresas a alcanzar sus objetivos en el entorno digital. Ofrecemos servicios integrales de publicidad, diseño web, SEO y gestión de redes sociales para mejorar la visibilidad y el alcance de las empresas en línea. Además, brindamos protección de marca para preservar la identidad y reputación de las empresas, manteniéndolas seguras de posibles amenazas en el entorno digital en constante cambio.</p>
             </div>
         </div>
+        </Slide>
     </section>
     );
 }

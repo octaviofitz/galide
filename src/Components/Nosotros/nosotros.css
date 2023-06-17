@@ -36,8 +36,8 @@
   position: relative;
   font-family: 'Lato', sans-serif;
   padding-bottom: 1.5rem;
-  animation: bounce; 
-  animation-duration: 2s; 
+ /*  animation: bounce; 
+  animation-duration: 2s;  */
 }
 
 .nosotros .Container::before{

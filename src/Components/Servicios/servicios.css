@@ -106,14 +106,14 @@
 
 .servicios .Container #card1,
 .servicios .Container #card3{
-    animation: fadeInLeft; /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 5s; /* don't forget to set a duration! */
+    animation: fadeInLeft; 
+    animation-duration: 5s; 
 }
 
 .servicios .Container #card2,
 .servicios .Container #card4{
-    animation: fadeInRight; /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 5s; /* don't forget to set a duration! */
+    animation: fadeInRight; 
+    animation-duration: 5s; 
 }
 
 .servicios .Container .card .img{

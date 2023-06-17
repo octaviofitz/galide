@@ -1,9 +1,11 @@
 import React from 'react';
+import {Fade} from "react-awesome-reveal";
 
 import './tecnologiasWeb.css';
 
 function TecnologiasWeb() {
     return (
+        <Fade duration={5000}>
         <article className='tecnologias'>
             <img src={process.env.PUBLIC_URL + "/img/tecnologias/combo.webp"} alt='HTML, CSS, Js' className='img' />
             <img src={process.env.PUBLIC_URL + "/img/tecnologias/node.svg"} alt='Javascript' className='img' />
@@ -12,6 +14,7 @@ function TecnologiasWeb() {
             <img src={process.env.PUBLIC_URL + "/img/tecnologias/sql.svg"} alt='MySQL' className='img' />
             <img src={process.env.PUBLIC_URL + "/img/tecnologias/firebase.svg"} alt='Firebase' className='img' />
         </article>
+        </Fade>
     );
 }
 
