@@ -9,8 +9,7 @@
     font-family: 'Lato', sans-serif;
 }
 
-.nosotros .volanta,
-.nosotros .linea{
+.nosotros .volanta{
     display: inline-block;
     vertical-align: middle;
 }
@@ -36,8 +35,6 @@
   position: relative;
   font-family: 'Lato', sans-serif;
   padding-bottom: 1.5rem;
- /*  animation: bounce; 
-  animation-duration: 2s;  */
 }
 
 .nosotros .Container::before{

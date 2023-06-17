@@ -10,16 +10,9 @@
     font-family: 'Lato', sans-serif;
 }
 
-.clientes .volanta,
-.clientes .linea{
+.clientes .volanta{
     display: inline-block;
     vertical-align: middle;
-}
-
-.clientes .linea{
-    border: 1px solid red;
-    width: 30vw;
-    margin-top: 2rem;
 }
 
 .clientes .titulo{
@@ -49,8 +42,8 @@
     background: #ffffff;
     position: relative;
     font-family: 'Lato', sans-serif;
-    animation: backInDown; /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 7s; /* don't forget to set a duration! */
+    animation: backInDown;
+    animation-duration: 7s; 
     }
 
 .clientes .Container .card::before{
@@ -148,6 +141,4 @@
     margin: 1rem 1rem;
     display: flex;
 }
-
-
 }

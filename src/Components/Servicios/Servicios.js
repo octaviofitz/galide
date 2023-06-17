@@ -1,7 +1,6 @@
 import React from 'react';
 import './servicios.css'
-import {Slide} from "react-awesome-reveal";
-
+import {Fade} from "react-awesome-reveal";
 
 import TecnologiasWeb from '../TecnologiasWeb/TecnologiasWeb';
 
@@ -11,9 +10,8 @@ function Servicios() {
             <p className='volanta'>¿Qué ofrecemos?</p>
             <h3 className='titulo'>NUESTROS SERVICIOS</h3>
 
-            <Slide direction='right' duration={3000} delay={1000}>
+            <Fade duration={2500} delay={500}>
             <div className='Container'>
-
 
                  <div className='card' id='card1'>
                 <img src={process.env.PUBLIC_URL + "/img/servicios/proteccion.webp"} alt='Protección de marca' className='img' />
@@ -44,7 +42,7 @@ function Servicios() {
                 </div>
 
                     </div>
-                    </Slide>
+                    </Fade>
 
                     <TecnologiasWeb />
         </section>
