@@ -6,11 +6,11 @@
 }
 
 .header .Container .titulo{
-    font-size: 2.4rem;
+    font-size: 3.1rem;
     text-transform: uppercase;
     font-family: 'Anton', sans-serif;
     text-align: center;
-    padding: 23vh 5vw 3vw;
+    padding: 23vh 7vw 3vw;
     color: #fff;
     animation: backInDown; /* referring directly to the animation's @keyframe declaration */
     animation-duration: 1s; /* don't forget to set a duration! */
@@ -28,8 +28,8 @@
 
 @media (min-width: 768px){
     .header .Container .titulo{
-        font-size: 3.8rem;
-        padding: 13vh 10vw 3vw;
+        font-size: 4.2rem;
+        padding: 20vh 10vw 3vw;
     }
     
     .header .Container .boton{
@@ -40,8 +40,7 @@
 
 @media (min-width: 1024px){
     .header .Container .titulo{
-        font-size: 3.8rem;
-        padding: 15vh 21vw 3vw;
+        padding: 20vh 21vw 3vw;
     }
     
     .header .Container .boton{
@@ -52,7 +51,7 @@
 
 @media (min-width: 1440px){
     .header .Container .titulo{
-        font-size: 4vw;
+        font-size: 4.25vw;
         padding: 15vh 30vw 3vw;
     }
 

@@ -9,7 +9,7 @@ function Header() {
     return (
         <section className='header'>
               <div className='Container'>
-                <h2 className='titulo'>Desarrollamos soluciones digitales que impulsen tu negocio</h2>
+                <h2 className='titulo'>Desbloqueá el potencial del hiperespacio digital</h2>
                 <Nav.Link href="#contacto" className='links'><Button variant="contained" className='boton'>CONTACTANOS</Button></Nav.Link>
 
                <Link to='contacto'></Link>
