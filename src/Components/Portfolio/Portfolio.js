@@ -6,7 +6,7 @@ import './portfolio.css';
 function Portfolio() {
     return (
         <section className='clientes' id='clientes'>
-            <Slide direction='left' duration={2000}>
+            <Slide direction='left' duration={1500}>
             <p className='volanta'>Portfolio</p>
             <h3 className='titulo'>ALGUNOS DE NUESTROS CLIENTES</h3>
 

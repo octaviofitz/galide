@@ -42,8 +42,6 @@
     background: #ffffff;
     position: relative;
     font-family: 'Lato', sans-serif;
-    animation: backInDown;
-    animation-duration: 7s; 
     }
 
 .clientes .Container .card::before{

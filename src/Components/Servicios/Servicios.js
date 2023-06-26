@@ -1,6 +1,7 @@
 import React from 'react';
-import './servicios.css'
 import {Fade} from "react-awesome-reveal";
+
+import './servicios.css'
 
 import TecnologiasWeb from '../TecnologiasWeb/TecnologiasWeb';
 

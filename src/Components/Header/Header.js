@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import Nav from 'react-bootstrap/Nav';
 import Button from '@mui/material/Button';
 
@@ -11,8 +10,6 @@ function Header() {
               <div className='Container'>
                 <h2 className='titulo'>Desbloqueá el potencial del hiperespacio digital</h2>
                 <Nav.Link href="#contacto" className='links'><Button variant="contained" className='boton'>CONTACTANOS</Button></Nav.Link>
-
-               <Link to='contacto'></Link>
                 </div>
         </section>
     );  

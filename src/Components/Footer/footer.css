@@ -9,10 +9,16 @@ footer .titulo{
     text-align: center;
     padding: 2rem;
     color: #fff;
-    font-family: 'Anton', sans-serif;
+    font-family: 'made sans';
+    font-weight: 900;
     font-size: 1.8rem;
     text-transform: uppercase;
     margin-bottom: 0rem;
+}
+
+footer strong{
+    font-family: 'made sans';
+    font-weight: 700;
 }
 
 footer .derechos{

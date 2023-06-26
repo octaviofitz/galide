@@ -11,12 +11,6 @@
   font-family: 'Lato', sans-serif!important;
   font-weight: 600;
   text-align: center;
- /*  background-color: #5c5188;
-  color: #fff;
-  width: 60%;
-  display: flex;
-  justify-content: center;
-  margin-left: 20vw; */
 }
 
 .navBar .links:hover{
@@ -52,5 +46,6 @@
   .navBar .brand{
     font-size: 36px;
 }
+
 }
 
