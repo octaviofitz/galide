@@ -70,7 +70,7 @@ const mostrarAlerta=()=> {
           <div>
             <p className='volanta'>¿Algún proyecto en mente?</p>
             <h3 className='titulo'>CONTACTO</h3>
-            <p className='texto'>Completá el formulario y descubre cómo podemos potenciar tu negocio con estrategias de marketing efectivas.<br></br>También podés comunicarte a través de nuestro correo electrónico <b>hola@galide.com.ar</b>. De ambas maneras recibirás una respuesta a la brevedad.</p>
+            <p className='texto'>Completá el formulario y descubre cómo podemos potenciar tu negocio con estrategias de marketing efectivas.<br></br>También podés comunicarte a través de nuestro correo electrónico <b>hola@galide.com.ar</b></p>
             </div>
         <div>
 

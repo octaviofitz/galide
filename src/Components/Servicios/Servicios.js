@@ -18,7 +18,7 @@ function Servicios() {
                 <img src={process.env.PUBLIC_URL + "/img/servicios/proteccion.webp"} alt='Protección de marca' className='img' />
                 <p className='subtitulo'>Protección de Marca</p>
                 <hr></hr>
-                   <p className='texto'>Nuestra agencia se enorgullece en ofrecer un servicio integral de protección de marca, destinado a garantizar la reputación, imagen y control de precios de nuestros valiosos clientes. Conscientes de la importancia de preservar la identidad y el prestigio de una marca, nos hemos especializado en desarrollar estrategias sólidas y eficientes para enfrentar los desafíos del mercado actual.</p>
+                   <p className='texto'>Nuestro servicio integral de protección de marca, garantiza la reputación, imagen y control de precios de nuestros valiosos clientes. Preservando la identidad y el prestigio de una marca, desarrollando estrategias sólidas y eficientes para enfrentar los desafíos del mercado actual.</p>
                 </div>
 
                 <div className='card' id='card2'>
